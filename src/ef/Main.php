@@ -35,7 +35,7 @@ public function onEnable(){
                $sender->addEffect($effect);
                 break;
              case Ra:
-               $Effect = Effect::getEffect(5);
+               $Effect = Effect::getEffect(10);
                $effect->setAmplifier(2);
                $effect->setVisible(true);
                $effect->setDuration(10000000);
