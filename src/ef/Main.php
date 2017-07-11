@@ -21,4 +21,26 @@ public function onEnable(){
          if($cmd->getName() == 'cmd'){
            switch(mt_rand(ef,Ra)){
             case ef:
-             $Effect = Effect::getEffect();
+             $Effect = Effect::getEffect(1);
+             $effect->setAmplifier(2);
+             $effect->setVisible(true);
+             $effect->setDuration(10000000);
+             $sender->addEffect($effect);
+               break;
+             case ab:
+               $Effect = Effect::getEffect(5);
+               $effect->setAmplifier(2);
+               $effect->setVisible(true);
+               $effect->setDuration(10000000);
+               $sender->addEffect($effect);
+                break;
+             case Ra:
+               $Effect = Effect::getEffect(5);
+               $effect->setAmplifier(2);
+               $effect->setVisible(true);
+               $effect->setDuration(10000000);
+               $sender->addEffect($effect);
+                 break;
+           }
+         }
+        }
