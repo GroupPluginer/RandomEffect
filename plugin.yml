@@ -3,3 +3,10 @@ main: ef\Main
 version: 1.0
 api: 3.0.0
 author: GroupPluginer
+commands:
+  ef:
+    description: Random Effect
+  ab:
+    description: Random Effect
+  Ra:
+    description: Random Effect
