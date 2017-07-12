@@ -40,6 +40,7 @@ public function onEnable(){
                $effect->setVisible(true);
                $effect->setDuration(10000000);
                $sender->addEffect($effect);
-          }
+                break;
          }
         }
+       }           
